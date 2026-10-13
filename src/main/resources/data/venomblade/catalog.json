@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "weapons": [{
+    "id": "venom_fang",
+    "name_en": "Venom Fang",
+    "name_tr": "Zehir Dişi",
+    "category": "poison",
+    "rarity": "rare",
+    "attack_damage_bonus": 4,
+    "attack_speed_modifier": -2.2,
+    "durability": 250,
+    "required_level": 1,
+    "material": "iron",
+    "special_effect": "none",
+    "element": "none",
+    "recipe": "data/venomblade/recipe/venom_fang.json",
+    "model": "assets/venomblade/models/item/venom_fang.json",
+    "texture": "minecraft:item/iron_sword",
+    "evolves_to": null
+  }],
+  "armor": [{
+    "id": "venom_hunter_helmet",
+    "name_en": "Venom Hunter Helmet",
+    "name_tr": "Zehir Avcısı Miğferi",
+    "category": "poison",
+    "rarity": "uncommon",
+    "slot": "helmet",
+    "defense": 3,
+    "toughness": 0.5,
+    "knockback_resistance": 0.0,
+    "durability": 165,
+    "required_level": 1,
+    "material": "venom_hunter",
+    "set_id": "venom_hunter",
+    "resistances": [],
+    "special_effect": "none",
+    "recipe": "data/venomblade/recipe/venom_hunter_helmet.json",
+    "model": "assets/venomblade/models/item/venom_hunter_helmet.json",
+    "texture": "minecraft:item/iron_helmet",
+    "evolves_to": null
+  }]
+}
